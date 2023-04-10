@@ -11,143 +11,187 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="logo link" href="./index.html">web
-          <span class="logo-studio">Studio</span> </a
-        >
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    
-      <address class="contact-info">
-        <ul class="contact list">
-          <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item">
-            <a class="contact-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container container-header">
+        <nav class="page-nav">
+          <a class="logo link" href="./index.html"
+            >web <span class="logo-studio">Studio</span>
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="contact-info">
+          <ul class="contact list">
+            <li class="contact-item">
+              <a class="contact-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-item">
+              <a class="contact-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- Main -->
     <main>
-      <section class="project">
-        <h1 hidden>Galery of projects</h1>
-        <ul class="project-filter list">
-          <li><button class="filter-button" type="button">All</button></li>
-          <li><button class="filter-button" type="button">Web Site</button></li>
-          <li><button class="filter-button" type="button">App</button></li>
-          <li><button class="filter-button" type="button">Design</button></li>
-          <li>
-            <button class="filter-button" type="button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="project-list list">
-          <li class="project-item">
-            <a class="link" href="">
-            <img
-              src="./images/pf-banking-app.jpg"
-              alt="app design  on one page"
-            />
-            <h2 class="project-subtitle subtitle">
-              Banking App Interface Concept
-            </h2>
-            <p class="project-text text">App</p>
-          </a>
-        </li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-cachless-payment.jpg"
-              alt="payment using phone"
-            />
-            <h2 class="project-subtitle subtitle">Cashless Payment</h2>
-            <p class="project-text text">Marketing</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-meditation-app.jpg"
-              alt="laptop and phone with the same app"
-            />
-            <h2 class="project-subtitle subtitle">Meditation App</h2>
-            <p class="project-text text">App</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img src="./images/pf-taxi-service.jpg" alt="man driving car" />
-            <h2 class="project-subtitle subtitle">Taxi Service</h2>
-            <p class="project-text text">Marketing</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-screen-illustrations.jpg"
-              alt="phone with alternative screens"
-            />
-            <h2 class="project-subtitle subtitle">Screen Illustrations</h2>
-            <p class="project-text text">Design</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-online-courses.jpg"
-              alt="girl talk on a video call"
-            />
-            <h2 class="project-subtitle subtitle">Online Courses</h2>
-            <p class="project-text text">Marketing</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-stories-concept.jpg"
-              alt=" different app pages"
-            />
-            <h2 class="project-subtitle subtitle">Instagram Stories Concept</h2>
-            <p class="project-text text">Design</p>
-          </a></li>
-          <li class="project-item"> <a class="link" href="">
-            <img
-              src="./images/pf-organic-food.jpg"
-              alt="woman with a bag with fruits and vegetables"
-            />
-            <h2 class="project-subtitle subtitle">Organic Food</h2>
-            <p class="project-text text">Web Site</p>
-          </a></li>
-          <li class="project-item"><a class="link" href="">
-            <img
-              src="./images/pf-fresh-coffee.jpg"
-              alt="pooring the milk in a cup of coffee"
-            />
-            <h2 class="project-subtitle subtitle">Fresh Coffee</h2>
-            <p class="project-text text">Web Site</p>
-          </a></li>
-        </ul>
+      <section class="project section">
+        <div class="container">
+          <h1 hidden>Galery of projects</h1>
+          <ul class="project-filter list">
+            <li class="filter-item"><button class="filter-button" type="button">All</button></li>
+            <li class="filter-item"> <button class="filter-button" type="button">Web Site</button></li>
+            <li class="filter-item"><button class="filter-button" type="button">App</button></li>
+            <li class="filter-item"><button class="filter-button" type="button">Design</button></li>
+            <li class="filter-item"><button class="filter-button" type="button">Marketing</button></li>
+          </ul>
+          <ul class="project-list list">
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-banking-app.jpg"
+                  alt="app design  on one page"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">
+                  Banking App Interface Concept
+                </h2>
+                <p class="project-text text">App</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-cachless-payment.jpg"
+                  alt="payment using phone"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Cashless Payment</h2>
+                <p class="project-text text">Marketing</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-meditation-app.jpg"
+                  alt="laptop and phone with the same app"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Meditation App</h2>
+                <p class="project-text text">App</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img src="./images/pf-taxi-service.jpg" alt="man driving car" />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Taxi Service</h2>
+                <p class="project-text text">Marketing</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-screen-illustrations.jpg"
+                  alt="phone with alternative screens"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Screen Illustrations</h2>
+                <p class="project-text text">Design</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-online-courses.jpg"
+                  alt="girl talk on a video call"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Online Courses</h2>
+                <p class="project-text text">Marketing</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-stories-concept.jpg"
+                  alt=" different app pages"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">
+                  Instagram Stories Concept
+                </h2>
+                <p class="project-text text">Design</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-organic-food.jpg"
+                  alt="woman with a bag with fruits and vegetables"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Organic Food</h2>
+                <p class="project-text text">Web Site</p>
+              </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="link" href="">
+                <img
+                  src="./images/pf-fresh-coffee.jpg"
+                  alt="pooring the milk in a cup of coffee"
+                />
+                <div class="project-text-wrapper">
+                <h2 class="project-subtitle subtitle">Fresh Coffee</h2>
+                <p class="project-text text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="page-footer">
-      <a class="logo-footer link" href="./index.html">Web
-        <span class="logo-footer-studio">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing &amp; growth solutions.
-      </p>
+      <div class="container">
+        <a class="logo-footer link" href="./index.html"
+          >Web <span class="logo-footer-studio">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing &amp; growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
