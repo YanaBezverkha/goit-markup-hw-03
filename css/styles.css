@@ -88,8 +88,8 @@ body {
 .container-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   justify-content: space-between;
   padding-left: 15px;
    padding-right: 15px;
